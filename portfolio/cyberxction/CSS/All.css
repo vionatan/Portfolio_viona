@@ -1,0 +1,120 @@
+html {
+    background-image: url("../images/background.jpg");
+}
+
+body {
+    background-color: #e5e5e5;
+}
+
+div.transbox {
+    background-color: rgb(170, 169, 169);
+}
+
+/* if you have question box */
+
+.box {
+    width: 400px;
+}
+
+/* search bar in services page */
+
+#searchbar {
+    height: 4em;
+}
+
+.intro {
+    width: 500px;
+}
+
+
+/* carousel caption */
+
+.testimonial {
+    width: 670px;
+    background-color: rgba(219, 215, 215, 0.510);
+}
+
+.blockquote {
+    font-size: medium;
+}
+
+a {
+    color: white;
+}
+
+.newsletter {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+/* about us carousel */
+
+.work {
+    background-color: #91f0ff;
+    margin-left: 20em;
+}
+
+@media only screen and (max-width: 1106px) {
+    .log {margin-bottom: 2em;}
+
+    .testimonial{
+        width: 500px;
+    }
+
+    .blockquote {
+        font-size: 12px;
+        
+    }
+
+    .bossname {
+        font-size: 18px;
+    }
+
+    .role {
+        font-size: 16px;
+    }
+
+    #learn {
+        margin-top: 0px;
+    }
+
+    .c {
+        font-size: 16px;
+        padding: 25px;
+    }
+
+    .work {
+        margin-left: 17em;
+    }
+
+    .cap {
+        font-size: 20px;
+    }
+
+    .about {
+        font-size: 17px;
+    }
+
+    .n {
+        padding-left: 5px;
+    }
+
+    #enq{
+        font-size: 18px;
+        width: 21em;
+    }
+
+    .UE {
+        padding: 0px 10px;
+    }
+
+    .ser {
+        font-size: 20px;
+    }
+
+    .des {
+        font-size: 16px;
+    }
+}
